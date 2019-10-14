@@ -39,7 +39,7 @@ resource "google_compute_instance" "mean-stack" {
       network_tier = "PREMIUM"
     }
   }
-  metadata_startup_script = "sudo apt-get update; sudo apt-get install git  -y; git clone https://github.com/iamdaaniyaal/gcpterraform.git; cd gcpterraform/mean; sudo chmod 777 mean.sh; sh mean.sh"
+  metadata_startup_script = "sudo apt-get update; sudo apt-get install git  -y; git clone https://github.com/iamdaaniyaal/mean.git; sudo chmod 777 mean.sh; sh mean.sh"
 
  
 }
