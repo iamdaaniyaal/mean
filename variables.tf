@@ -1,6 +1,7 @@
 variable "credentials" {}
 variable "gcp_project" {}
 variable "region" {}
+variable "mean_stack_instance_ip_name" {}
 variable "mean_stack_instance_ip_region" {}
 variable "mean_stack_instance_name" {}
 variable "mean_stack_machine_type" {}
