@@ -10,7 +10,7 @@ provider "google" {
 
 //Reserving MEAN Stack IP
 resource "google_compute_address" "meanip" {
-  name   = "meanip"
+  name   = "${var.mean_stack_instance_ip_name}"
   region = "${var.mean_stack_instance_ip_region}"
 }
 
